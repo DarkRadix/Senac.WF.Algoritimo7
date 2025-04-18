@@ -103,6 +103,7 @@
             button1.TabIndex = 5;
             button1.Text = "Entrar";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // checkBox1
             // 
@@ -112,9 +113,9 @@
             checkBox1.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             checkBox1.Location = new Point(468, 208);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(170, 29);
+            checkBox1.Size = new Size(186, 29);
             checkBox1.TabIndex = 6;
-            checkBox1.Text = "Lembrar Senha";
+            checkBox1.Text = "Lembrar Usuário";
             checkBox1.UseVisualStyleBackColor = false;
             checkBox1.CheckedChanged += textBox2_TextChanged;
             // 
@@ -179,6 +180,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "Form1";
+            FormClosing += Form1_FormClosing;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);

@@ -63,6 +63,36 @@ namespace ALGORITIMO7.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4306501_bread_burger_fast_fastfood_food_icon {
+            get {
+                object obj = ResourceManager.GetObject("4306501_bread_burger_fast_fastfood_food_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8572657_trolley_store_cart_shop_market_icon {
+            get {
+                object obj = ResourceManager.GetObject("8572657_trolley_store_cart_shop_market_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _897234_aqua_bottle_drink_water_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("897234_aqua_bottle_drink_water_icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap adc581cdf930efa7b1818c640c2a73ee {
             get {
                 object obj = ResourceManager.GetObject("adc581cdf930efa7b1818c640c2a73ee", resourceCulture);
@@ -118,6 +148,16 @@ namespace ALGORITIMO7.Properties {
         internal static System.Drawing.Bitmap menorzin {
             get {
                 object obj = ResourceManager.GetObject("menorzin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngwing_com {
+            get {
+                object obj = ResourceManager.GetObject("pngwing.com", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

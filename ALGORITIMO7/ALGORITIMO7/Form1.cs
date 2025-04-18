@@ -20,14 +20,7 @@ namespace ALGORITIMO7
         // Método para fechar o aplicativo
         private void label1_Click(object sender, EventArgs e)
         {
-            var resposta = MessageBox.Show("Você deseja fechar está aplicação ?",
-                "Sair",
-                MessageBoxButtons.YesNo
-                , MessageBoxIcon.Question);
-            if (resposta == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
+            Application.Exit();
         }
 
         // Evento TextChanged do TextBox para esconder a senha
@@ -39,7 +32,7 @@ namespace ALGORITIMO7
             // Marca que estamos atualizando o texto
             atualizandoTexto = true;
 
-          
+
             string textoDigitado = textBox2.Text;
 
 
@@ -48,17 +41,17 @@ namespace ALGORITIMO7
 
             if (tamanhoDigitado < tamanhoReal)
             {
-            
+
                 senhaReal = senhaReal.Substring(0, tamanhoDigitado);
             }
             else if (tamanhoDigitado > tamanhoReal)
             {
-                
+
                 char novoChar = textoDigitado[^1];
                 senhaReal += novoChar;
             }
 
-           
+
             if (senhaReal.Length == 0)
             {
                 textBox2.Text = "";
@@ -86,13 +79,35 @@ namespace ALGORITIMO7
                 FileName = "https://senac.blackboard.com/webapps/blackboard/password",
                 UseShellExecute = true
             };
-           Process.Start(psi);
+            Process.Start(psi);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             if (textBox1.Text == "Usuario")
                 textBox1.Text = string.Empty;
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+            var resposta = MessageBox.Show("Você deseja fechar está aplicação ?",
+                "Sair",
+                MessageBoxButtons.YesNo
+                , MessageBoxIcon.Question);
+            if (resposta == DialogResult.Yes)
+            {
+                e.Cancel = false;
+
+            }
+            else { e.Cancel = true; }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var FormPrincipal = new FormPrincipal();
+            FormPrincipal.Show();
         }
     }
 }

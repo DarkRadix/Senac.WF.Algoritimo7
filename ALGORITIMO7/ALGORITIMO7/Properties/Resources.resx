@@ -118,22 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ChatGPT Image 10 de abr. de 2025, 20_07_09 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ChatGPT Image 10 de abr. de 2025, 20_07_09 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="design-de-arte-vetorial-de-tatuagem-de-padrao-tribaltatuagem-tribal-manga-abstrata-desenho-de-arte-isolado-em-fundo-brancologotipo-simples_6415-68071" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\design-de-arte-vetorial-de-tatuagem-de-padrao-tribaltatuagem-tribal-manga-abstrata-desenho-de-arte-isolado-em-fundo-brancologotipo-simples_6415-6807.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="design-de-arte-vetorial-de-tatuagem-de-padrao-tribaltatuagem-tribal-manga-abstrata-desenho-de-arte-isolado-em-fundo-brancologotipo-simples_6415-6807" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\design-de-arte-vetorial-de-tatuagem-de-padrao-tribaltatuagem-tribal-manga-abstrata-desenho-de-arte-isolado-em-fundo-brancologotipo-simples_6415-6807.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="8572657_trolley_store_cart_shop_market_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8572657_trolley_store_cart_shop_market_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ChatGPT Image 10 de abr. de 2025, 20_19_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ChatGPT Image 10 de abr. de 2025, 20_19_44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="design-de-arte-vetorial-de-tatuagem-de-padrao-tribaltatuagem-tribal-manga-abstrata-desenho-de-arte-isolado-em-fundo-brancologotipo-simples_6415-68071" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\design-de-arte-vetorial-de-tatuagem-de-padrao-tribaltatuagem-tribal-manga-abstrata-desenho-de-arte-isolado-em-fundo-brancologotipo-simples_6415-6807.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="menorzin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menorzin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="design-de-arte-vetorial-de-tatuagem-de-padrao-tribaltatuagem-tribal-manga-abstrata-desenho-de-arte-isolado-em-fundo-brancologotipo-simples_6415-6807" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\design-de-arte-vetorial-de-tatuagem-de-padrao-tribaltatuagem-tribal-manga-abstrata-desenho-de-arte-isolado-em-fundo-brancologotipo-simples_6415-6807.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngwing.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChatGPT Image 10 de abr. de 2025, 20_07_09 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT Image 10 de abr. de 2025, 20_07_09 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="adc581cdf930efa7b1818c640c2a73ee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\adc581cdf930efa7b1818c640c2a73ee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4306501_bread_burger_fast_fastfood_food_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4306501_bread_burger_fast_fastfood_food_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="897234_aqua_bottle_drink_water_icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\897234_aqua_bottle_drink_water_icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
