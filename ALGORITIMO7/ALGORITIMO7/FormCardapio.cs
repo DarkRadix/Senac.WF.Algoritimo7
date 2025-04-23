@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ALGORITIMO7
 {
-    public partial class FormPrincipal : Form
+    public partial class FormCardapio : Form
     {
-        public FormPrincipal()
+        public FormCardapio()
         {
             InitializeComponent();
         }
@@ -37,12 +37,15 @@ namespace ALGORITIMO7
 
         }
 
-        private void BTNCardapio_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            //oculta a tela principal
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
             this.Hide();
-            //Cria a tela de produtos e a 
-            new FormCardapio().Show();
+            new FormPrincipal().Show();
         }
     }
 }

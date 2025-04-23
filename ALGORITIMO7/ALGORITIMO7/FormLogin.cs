@@ -2,13 +2,13 @@ using System.Diagnostics;
 
 namespace ALGORITIMO7
 {
-    public partial class Form1 : Form
+    public partial class FormLogin : Form
     {
         // Variáveis globais
         private string senhaReal = "";  // Para armazenar a senha real
         private bool atualizandoTexto = false;  // Evitar loop infinito ao atualizar o texto
 
-        public Form1()
+        public FormLogin()
         {
             InitializeComponent();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ALGORITIMO7
 {
-    public partial class FormPrincipal : Form
+    public partial class FormPgto : Form
     {
-        public FormPrincipal()
+        public FormPgto()
         {
             InitializeComponent();
         }
@@ -35,14 +35,6 @@ namespace ALGORITIMO7
         private void button2_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void BTNCardapio_Click(object sender, EventArgs e)
-        {
-            //oculta a tela principal
-            this.Hide();
-            //Cria a tela de produtos e a 
-            new FormCardapio().Show();
         }
     }
 }

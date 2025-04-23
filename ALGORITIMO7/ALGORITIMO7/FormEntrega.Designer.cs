@@ -1,6 +1,6 @@
 ﻿namespace ALGORITIMO7
 {
-    partial class FormPrincipal
+    partial class FormEntrega
     {
         /// <summary>
         /// Required designer variable.
@@ -35,11 +35,11 @@
             panel3 = new Panel();
             pictureBox1 = new PictureBox();
             panel1 = new Panel();
-            BTNClientes = new Button();
-            BTNEntrega = new Button();
-            BTNPagto = new Button();
-            BTNCardapio = new Button();
+            button4 = new Button();
+            button3 = new Button();
+            button1 = new Button();
             panel4 = new Panel();
+            button2 = new Button();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -88,9 +88,9 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(-116, -97);
+            pictureBox1.Location = new Point(-94, -83);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(519, 269);
+            pictureBox1.Size = new Size(465, 254);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
@@ -99,63 +99,50 @@
             // panel1
             // 
             panel1.BackColor = Color.Black;
-            panel1.Controls.Add(BTNClientes);
-            panel1.Controls.Add(BTNEntrega);
-            panel1.Controls.Add(BTNPagto);
-            panel1.Controls.Add(BTNCardapio);
+            panel1.Controls.Add(button2);
+            panel1.Controls.Add(button4);
+            panel1.Controls.Add(button3);
+            panel1.Controls.Add(button1);
             panel1.Location = new Point(2, 86);
             panel1.Name = "panel1";
             panel1.Size = new Size(343, 338);
             panel1.TabIndex = 8;
             // 
-            // BTNClientes
+            // button4
             // 
-            BTNClientes.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BTNClientes.Image = (Image)resources.GetObject("BTNClientes.Image");
-            BTNClientes.ImageAlign = ContentAlignment.MiddleLeft;
-            BTNClientes.Location = new Point(10, 97);
-            BTNClientes.Name = "BTNClientes";
-            BTNClientes.Size = new Size(296, 71);
-            BTNClientes.TabIndex = 12;
-            BTNClientes.Text = "Clientes";
-            BTNClientes.UseVisualStyleBackColor = true;
+            button4.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.Image = (Image)resources.GetObject("button4.Image");
+            button4.ImageAlign = ContentAlignment.MiddleLeft;
+            button4.Location = new Point(10, 254);
+            button4.Name = "button4";
+            button4.Size = new Size(296, 73);
+            button4.TabIndex = 11;
+            button4.Text = "Entrega";
+            button4.UseVisualStyleBackColor = true;
             // 
-            // BTNEntrega
+            // button3
             // 
-            BTNEntrega.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BTNEntrega.Image = (Image)resources.GetObject("BTNEntrega.Image");
-            BTNEntrega.ImageAlign = ContentAlignment.MiddleLeft;
-            BTNEntrega.Location = new Point(10, 254);
-            BTNEntrega.Name = "BTNEntrega";
-            BTNEntrega.Size = new Size(296, 73);
-            BTNEntrega.TabIndex = 11;
-            BTNEntrega.Text = "Entrega";
-            BTNEntrega.UseVisualStyleBackColor = true;
+            button3.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.Image = (Image)resources.GetObject("button3.Image");
+            button3.ImageAlign = ContentAlignment.MiddleLeft;
+            button3.Location = new Point(10, 178);
+            button3.Name = "button3";
+            button3.Size = new Size(296, 70);
+            button3.TabIndex = 10;
+            button3.Text = "Pagto.";
+            button3.UseVisualStyleBackColor = true;
             // 
-            // BTNPagto
+            // button1
             // 
-            BTNPagto.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BTNPagto.Image = (Image)resources.GetObject("BTNPagto.Image");
-            BTNPagto.ImageAlign = ContentAlignment.MiddleLeft;
-            BTNPagto.Location = new Point(10, 178);
-            BTNPagto.Name = "BTNPagto";
-            BTNPagto.Size = new Size(296, 70);
-            BTNPagto.TabIndex = 10;
-            BTNPagto.Text = "Pagto.";
-            BTNPagto.UseVisualStyleBackColor = true;
-            // 
-            // BTNCardapio
-            // 
-            BTNCardapio.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BTNCardapio.Image = (Image)resources.GetObject("BTNCardapio.Image");
-            BTNCardapio.ImageAlign = ContentAlignment.MiddleLeft;
-            BTNCardapio.Location = new Point(10, 21);
-            BTNCardapio.Name = "BTNCardapio";
-            BTNCardapio.Size = new Size(296, 71);
-            BTNCardapio.TabIndex = 9;
-            BTNCardapio.Text = "Cardapio";
-            BTNCardapio.UseVisualStyleBackColor = true;
-            BTNCardapio.Click += BTNCardapio_Click;
+            button1.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Image = (Image)resources.GetObject("button1.Image");
+            button1.ImageAlign = ContentAlignment.MiddleLeft;
+            button1.Location = new Point(10, 21);
+            button1.Name = "button1";
+            button1.Size = new Size(296, 71);
+            button1.TabIndex = 9;
+            button1.Text = "Cardapio";
+            button1.UseVisualStyleBackColor = true;
             // 
             // panel4
             // 
@@ -165,6 +152,18 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(343, 118);
             panel4.TabIndex = 9;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.Image = (Image)resources.GetObject("button2.Image");
+            button2.ImageAlign = ContentAlignment.MiddleLeft;
+            button2.Location = new Point(10, 97);
+            button2.Name = "button2";
+            button2.Size = new Size(296, 71);
+            button2.TabIndex = 12;
+            button2.Text = "Clientes";
+            button2.UseVisualStyleBackColor = true;
             // 
             // FormPrincipal
             // 
@@ -193,12 +192,12 @@
         private Panel panel3;
         private PictureBox pictureBox1;
         private Panel panel1;
-        private Button BTNClientes;
+        private Button button2;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
         private Panel panel4;
-        private Button BTNCardapio;
-        private Button BTNEntrega;
-        private Button BTNPagto;
+        private Button button1;
+        private Button button4;
+        private Button button3;
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace ALGORITIMO7
 {
-    partial class Form1
+    partial class FormLogin
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
             textBox1 = new TextBox();
